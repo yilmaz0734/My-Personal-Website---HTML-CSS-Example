@@ -1,0 +1,29 @@
+#navbar {
+    flex-direction: column;
+    padding-top: 1em;
+    padding-bottom: 1rem;
+    overflow: hidden;
+    height: 80px;
+}
+
+#skills .items {
+    display:flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    background: #062e51;
+    border-radius:0.5rem;
+}
+
+#skills .items .item {
+    width:100%;
+    text-align: center;
+}
+
+.experiences .experience {
+    display:flex;
+    flex-direction: column;
+    padding:1rem;
+    margin-bottom:0.5rem;
+    word-wrap: break-word;
+}

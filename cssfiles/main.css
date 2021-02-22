@@ -1,0 +1,224 @@
+* {
+    margin:0;
+    padding:0;
+    box-sizing:"border-box";
+}
+a {
+    text-decoration: none;
+    color: #fff;
+
+}
+html {
+    font-family: "Open Sans";
+}
+
+#navbar {
+    color:#fff;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 0.75rem;
+    height: 70px;
+}
+
+#navbar ul {
+    list-style-type:none;
+    display:flex;
+    align-items: center;
+    
+}
+#navbar ul li a {
+    padding: 1.25rem;
+}
+
+#navbar ul li a:hover {
+    background: #336ea2;
+    border-radius: 5px;
+}
+
+/* Home */
+
+#main {
+    display:flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 1.5rem;
+    border-bottom: 1px solid grey;
+}
+
+#main img {
+    max-width: 100%;
+    height: auto;
+    border-radius: 100%;
+}
+
+#main .name {
+    text-align:center;
+}
+
+#main .name h2 {
+    margin-bottom:0.25rem;
+    margin-top:0.25rem;
+}
+
+#main .name p {
+    font-style:italic;
+}
+
+/* Skills*/
+.fa-python {
+    color: #e7e300;
+}
+
+.fa-html5 {
+    color: #E74D00;
+}
+
+.flex-design {
+    display:flex;
+    list-style:none;
+    margin:0 auto;
+    justify-content: center;
+}
+
+.padding{
+    padding-right:0.25rem;
+}
+
+.fa-css3-alt {
+    color: #A900E7;
+}
+
+.fa-js-square {
+    color: #F10024;
+}
+
+.fa-code {
+    color: palevioletred;
+}
+
+#skills {
+    color:#fff;
+    padding:0.75rem;
+}
+
+
+#skills .items {
+    display:flex;
+    justify-content: space-between;
+    align-items: center;
+    background: #062e51;
+    border-radius:0.5rem;
+}
+
+#skills .items .border {
+    width:33%;
+    text-align: center;
+    border-left: 2px solid grey;
+
+}
+#skills .items .item {
+    width:33%;
+    text-align: center;
+    padding:0.5rem;
+}
+
+#skills .items .item:hover {
+    color:#FF1034;
+    opacity:0.8;
+}
+
+#portfolio {
+    color:#333;
+    padding:1rem;
+}
+
+.experiences {
+    display:flex;
+    flex-direction: column;
+    padding:1rem;
+}
+
+.experiences .experience {
+    display:flex;
+    padding:1rem;
+    margin-bottom:0.5rem;
+}
+
+.experiences .experience .experience-image {
+    margin-right:0.75rem;
+    position: relative;
+}
+.experiences .experience .experience-image img {
+    border-radius: 5px;
+}
+
+.experiences .experience .experience-info .title {
+    letter-spacing: 0.3px;
+    font-weight: 700;
+    margin-bottom:0.25rem;
+}
+
+.experiences .experience .experience-info .description {
+    letter-spacing: 0.3px;
+    margin-bottom:0.25rem;
+    font-weight: 500;
+    opacity:1;
+}
+
+.experiences .experience .experience-info .modules {
+    letter-spacing: 0.3px;
+    margin-bottom:0.25rem;
+    font-weight: 400;
+}
+.experiences .experience .experience-info .company {
+    letter-spacing: 0.3px;
+    margin-bottom:0.25rem;
+    opacity:0.9;
+    font-weight: 400;
+}
+.link {
+    letter-spacing: 0.3px;
+    margin-bottom:0.25rem;
+    font-weight: 400;
+    color:maroon;
+}
+.link:hover {
+    letter-spacing: 0.3px;
+    margin-bottom:0.25rem;
+    font-weight: 400;
+    color:mediumblue;
+}
+
+#contact {
+    color:#fff;
+    padding:0.5rem;
+}
+
+#contact .contact-form {
+    max-width: 700px;
+    margin-left: auto;
+    margin-right: auto;
+    display:flex;
+    flex-direction: column;
+}
+
+#contact .contact-form ul {
+    display:flex;
+    margin-top:1rem;
+    list-style-type: none;
+    align-self: center;
+}
+
+#contact .contact-form ul li a {
+    padding:1rem;
+    font-size:1.2rem;
+}
+
+
+#contact .contact-form ul li a:hover {
+    padding:1rem;
+    font-size:1.25rem;
+    opacity:0.8;
+}
